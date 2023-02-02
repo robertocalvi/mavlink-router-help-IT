@@ -1,6 +1,6 @@
 # mavlink-router-help-IT
 
-Comunicare con Raspberry Pi tramite MAVLink¶
+## Comunicare con Raspberry Pi tramite MAVLink
 
 Questa pagina spiega come collegare e configurare un Raspberry Pi (RPi) in modo che sia in grado di comunicare con un controller di volo utilizzando il protocollo MAVLink su una connessione seriale. Questo può essere utilizzato per eseguire attività aggiuntive come il riconoscimento delle immagini che semplicemente non può essere eseguito dal controllore di volo a causa dei requisiti di memoria per la memorizzazione delle immagini.
 
@@ -8,31 +8,35 @@ Collegare la porta TELEM2 del controller di volo ai pin Ground, TX e RX di RPi c
 
 ![COLLEGARE RASPBERRY PI AL CONTROLLORE DI VOLO](https://user-images.githubusercontent.com/20637640/216365366-18e6122c-1aec-431a-9c47-fb97aca54a0c.png)
 
+## SCHEMA-PIN-GPIO-Orbitty-TX2
 
+![SCHEMA-PIN-GPIO-Orbitty-TX2](https://user-images.githubusercontent.com/20637640/216366229-a1e3d27c-5800-47c4-b4b2-6eff906b93d7.png)
 
-SCHEMA-PIN-GPIO-Orbitty-TX2
 ---------SX-----------
-01 +3.3V OUTPUT 
-03 UART0 TX
-05 UART1 TX
-07 GPIO-0
-09 GPIO-2
-11 I2C CLK
-13 RECOVERY
-15 RESET
-17 POWER BUTTON 
-19 GROUND
+
+- 01 +3.3V OUTPUT 
+- 03 UART0 TX
+- 05 UART1 TX
+- 07 GPIO-0
+- 09 GPIO-2
+- 11 I2C CLK
+- 13 RECOVERY
+- 15 RESET
+- 17 POWER BUTTON 
+- 19 GROUND
+
 ---------DX-----------
-02 +5V OUTPUT
-04 UART0 RX
-06 UART1 RX
-08 GPIO-1
-10 GPIO-3
-12 I2C SDA
-14 RTC BAT INPUT 
-16 GND
-18 GROUND 
-20 GROUND
+
+- 02 +5V OUTPUT
+- 04 UART0 RX
+- 06 UART1 RX
+- 08 GPIO-1
+- 10 GPIO-3
+- 12 I2C SDA
+- 14 RTC BAT INPUT 
+- 16 GND
+- 18 GROUND 
+- 20 GROUND
 
 NOTE:
 In L4T:
