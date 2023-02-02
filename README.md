@@ -134,7 +134,7 @@ Port = 14550
 PortLock = 0
 ```
 
-## Connessione con il Mission Planner
+## Connessione a Mission Planner
 
 Il controller di volo risponderà ai comandi MAVLink ricevuti attraverso le porte Telemetry 1 e Telemetry 2 (vedi immagine nella parte superiore di questa pagina), il che significa che sia l'RPi che la normale stazione di terra (ad es. Il pianificatore di missione, ecc.) può essere collegato. Inoltre è possibile collegare MissionPlanner all'applicazione MAVProxy in esecuzione su RPi in modo simile a come è fatto per SITL.
 
