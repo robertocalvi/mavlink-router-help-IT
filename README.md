@@ -6,7 +6,7 @@ Questa pagina spiega come collegare e configurare un Raspberry Pi (RPi) in modo 
 
 Collegare la porta TELEM2 del controller di volo ai pin Ground, TX e RX di RPi come mostrato nell'immagine sotto: 
 
-![COLLEGARE RASPBERRY PI AL CONTROLLORE DI VOLO](https://user-images.githubusercontent.com/20637640/216365366-18e6122c-1aec-431a-9c47-fb97aca54a0c.png)
+![COLLEGARE RASPBERRY PI AL CONTROLLORE DI VOLO](https://user-images.githubusercontent.com/20637640/216408483-319d26d0-904c-4ac0-80a2-f99df7b0a772.png)
 
 ![Raspberry-Pi-4-GPIO-header](https://user-images.githubusercontent.com/20637640/216367155-c025f4dc-06db-48d0-8b89-8802b0524489.jpg)
 
