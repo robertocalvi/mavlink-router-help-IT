@@ -1,4 +1,4 @@
-# mavlink-router-help-IT
+# Mavlink-router-help-IT
 
 ## Comunicare con Raspberry Pi tramite MAVLink
 
@@ -108,7 +108,7 @@ Nota
 
 Se il Raspberry PI è pesantemente caricato, mavproxy.py potrebbe non fornire un collegamento affidabile per il routing della telemetria. Questo è più probabile su dispositivi più vecchi/più lenti come il Raspberry PI Zero. Se ciò accade, prendere in considerazione l'utilizzo di mavlink-routerd. Vedi questo post sul forum ArduPilot per una discussione dettagliata: MavLink Routing con software Router.
 
-# Router Mavlink¶
+# Router Mavlink
 
 Mavlink-router viene utilizzato per instradare la telemetria tra la porta seriale dell'RPi e qualsiasi endpoint di rete. Vedere la documentazione per le istruzioni di installazione e di esecuzione.
 
@@ -134,7 +134,7 @@ Port = 14550
 PortLock = 0
 ```
 
-Connessione con il Mission Planner
+## Connessione con il Mission Planner
 
 Il controller di volo risponderà ai comandi MAVLink ricevuti attraverso le porte Telemetry 1 e Telemetry 2 (vedi immagine nella parte superiore di questa pagina), il che significa che sia l'RPi che la normale stazione di terra (ad es. Il pianificatore di missione, ecc.) può essere collegato. Inoltre è possibile collegare MissionPlanner all'applicazione MAVProxy in esecuzione su RPi in modo simile a come è fatto per SITL.
 
