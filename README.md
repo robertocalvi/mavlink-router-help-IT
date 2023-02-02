@@ -13,6 +13,8 @@ Collegare la porta TELEM2 del controller di volo ai pin Ground, TX e RX di RPi c
 
 ## SCHEMA-PIN-GPIO-Orbitty-TX2
 
+![TX-RX-GPIO-Orbitty-TX2](https://user-images.githubusercontent.com/20637640/216422011-305aeec8-d9e1-4bbe-851f-d3c58a92760c.jpg)
+
 ![SCHEMA-PIN-GPIO-Orbitty-TX2](https://user-images.githubusercontent.com/20637640/216366229-a1e3d27c-5800-47c4-b4b2-6eff906b93d7.png)
 
 ---------SX-----------
