@@ -148,7 +148,7 @@ La connessione con il pianificatore della missione è mostrata di seguito:
   
 ![RaspberryPi_MissionPlanner](https://user-images.githubusercontent.com/20637640/216369254-01c846ab-6d85-45ad-b21d-f26bb2a28d4e.jpg)
 
-# TEST DO CONNESSIONE A NVIDIA JETSON TX2
+# TEST DI CONNESSIONE A NVIDIA JETSON TX2
 
 Inizialmente ho testato la porta di telemetria del Pixhawk collegandolo al mio pc con un cavo USB-tty e mavros. Il pixhawk funziona bene.
 
