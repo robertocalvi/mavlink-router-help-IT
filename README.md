@@ -163,4 +163,15 @@ Ho provato a collegare il mio pixhawk con l'UART di Debug, ma non ci sono riusci
 Quindi, come cambiare una Debug UART in una normale porta UART in TX2 (con la scheda portante Connect tech ORBITTY)?
 
 NOTA: Attenzione che la denominazione del dispositivo per `/dev/ttyTHS#` e `/dev/ttyS#`, dove `#` è lo stesso, è lo stesso hardware (ma ha fornito un'interfaccia tramite driver diversi). Quindi, ad esempio, `/dev/ttyS2` e `/dev/ttyTHS2` sono lo stesso UART, ma driver diversi. Quando controlli per assicurarti che la porta non sia di gruppo `tty`, controlla sia il nome del file "ttyTHS#" che il nome corrispondente `ttyS#`.
+
+# IMPOSTAZIONI SUL FLIGHTCONTROLLER
+
+Il controllore di volo (ad esempio Pixhawk o simili) deve essere configurato per comunicare con il computer di bordo impostando i seguenti parametri e riavviando poi la scheda:
+
+- `SERIAL2_BAUD` `921` (per RPi4, TX1) o 1500 (per TX2)
+- `SERIAL2_PROTOCOLL` `2`
+- `LOG_BACKEND_TYPE` `3`
+
+
+
   
