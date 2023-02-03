@@ -158,6 +158,9 @@ Poi ho collegato il mio PC con la RS232 in J4, ho usato Cutecom e ho scoperto ch
 
 Poi ho proceduto a utilizzare la porta UART di debug in j4 (/dev/ttyS0). Ho potuto ricevere i dati esatti inviati dall'altra parte usando cutecom. (ad esempio, quando invio "abc" da un'estremità, ricevo lo stesso dall'altra estremità).
 
+Ho provato a collegare il mio pixhawk con l'UART di Debug, ma non ci sono riuscito. L'output diceva che la porta seriale non era disponibile. Poi ho usato lsof per scoprire che c'era un processo in esecuzione sulla porta noto come "agetty". Ho provato a fare un "kill" del processo ma ogni volta che lo faccio, il processo viene reiniziato con un PID diverso. Il PPID sembra essere lo stesso, ma non sono riuscito a fare un "kill" del processo.
 
+Quindi, come cambiare una Debug UART in una normale porta UART in TX2 (con la scheda portante Connect tech ORBITTY)?
 
+NOTA: Attenzione che la denominazione del dispositivo per `/dev/ttyTHS#` e `/dev/ttyS#`, dove `#` è lo stesso, è lo stesso hardware (ma ha fornito un'interfaccia tramite driver diversi). Quindi, ad esempio, `/dev/ttyS2` e `/dev/ttyTHS2` sono lo stesso UART, ma driver diversi. Quando controlli per assicurarti che la porta non sia di gruppo `tty`, controlla sia il nome del file "ttyTHS#" che il nome corrispondente `ttyS#`.
   
